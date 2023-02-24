@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <title>replit</title>
+  <link href="estilo.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Pacifico&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container-top-bar">
+    <div class="container-top-bar-left">
+      <div class="logo">
+        <img class="logo" src="/imagens/Icon_work_from_home2.png">
+      </div>
+      <div class="top-bar-conteudo">
+        <a href=""> pagina inicial </a>
+        <a href="historia-blog.html"> história do blog </a>
+      </div>
+    </div>
+
+    <div class="container-top-bar-right">
+      <div class="top-bar-contatos">
+        <a href="/"> contato </a>
+        <a href="https://instagram.com/renata.vercesi">
+          <img src="/imagens/insta.png" class="logo2">
+        </a>
+      </div>
+
+      <div class="hamburger-menu">
+        <a href="">
+          <img src="/imagens/hamb_menu.png" class="logo3">
+        </a>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="container-cabecalho">
+    <div class="cabecalho-titulo">
+      <h1>
+        Blog do Leitor: Atualidades | Dúvidas | Comentários
+      </h1>
+      <h2>
+        A cada semana um novo tópico
+      </h2>
+    </div>
+
+    <div class="container-cabecalho-infos">
+      <img class="foto" src=/imagens/Fotografia.jpg>
+      <div class="cabecalho-infos">
+        <span class="infos"> Renata Vercesi Leme </span>
+        <span class="infos"> Front End Developer </span>
+      </div>
+    </div>
+  </div>
+
+   <div class="descricao">
+    <p>
+      Este Blog foi desenvolvido e vem sendo atualizado semanalmente, com intuito de abordar, conceituar e esclarecer
+      temas atuais.
+      A participação do leitor é fundamental para o sucesso do nosso conteúdo.
+    </p>
+  </div>
+
+  <div class="corpo-pagina">
+    <div>
+    <h4>
+      Tópicos em Destaque
+    </h4>
+    </div>
+       
+    <div class="topicos-em-destaque">
+      <a href="topico-primeiro.html">
+        <h3>
+          Working from Home ou Home Office?
+        </h3>
+      </a>
+      <a href="transicao-de-carreira.html">
+        <h3>
+          Transição de Carreira: vamos entender mais.
+        </h3>
+      </a>
+    </div>
+  </div>
+
+  <div class="container-formulario">
+    <div class="titulo">
+      <h1>
+        Deixe a sua sugestão para os próximos tópicos
+      </h1>
+    </div>
+
+   
+      <form action="https://getform.io/f/8a104b66-5475-47ac-93c4-6eab6f1b04fe" method="POST">
+     
+
+      <div class="container-campos">
+        <span>
+          <input type="text" required placeholder="Nome Completo" id="meu-nome" name="nome" class="entrada-texto"
+            minlength="6" maxlength="32">
+        </span>
+
+        <span>
+          <input type="email" required placeholder="Email " id="email" name="email">
+        </span>
+      </div>
+
+      <div class="container-campos">
+        <span>
+          <input type="tel" placeholder="Telefone (optional) " id="telefone" name="telefone" minlength="9" maxlength="16">
+        </span>
+
+        <span>
+          <input type="url" placeholder="Web Site (optional) " id="web-site" name="web">
+        </span>
+      </div>
+
+      <div>
+        <textarea placeholder="Sugestões" required id="mensagem" name="texto" class="entrada-texto" minlength="16"
+          maxlength="256"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="atualizacao" name="atualização">
+        <label>Quero receber as atualizações do Blog </label>
+      </div>
+      <div>
+        <input type="submit" value="Enviar" id="submit">
+      </div>
+    
+    </form>
+  </div>
+
+</body>
+
+</html>
